@@ -1,0 +1,49 @@
+# Exclude this folder completely
+youtube_shorts/
+statics/
+
+# Allow sound_effects folder
+!sound_effect/
+!sound_effect/*.mp3
+!sound_effect/*.wav
+!sound_effect/*.ogg
+
+# General Python cache
+__pycache__/
+*.py[oc]
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+*.env
+drive_credetianal.json/
+drive_credetianal.json
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+
+# MyPy
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore these folders if they exist
+Generated_images/
+Generated_voice/
+
+ 
